@@ -151,7 +151,8 @@ El archivo `ci.yml` define un **workflow de integración continua (CI)** que se 
 > **Nota para el estudiante:** Reemplaza las secciones siguientes con capturas de pantalla reales tomadas durante la ejecución de la actividad.
 
 ### 4.1 Creación del repositorio en GitHub
-*(Insertar captura de la pantalla de creación del repositorio)*
+<img width="1890" height="1002" alt="image" src="https://github.com/user-attachments/assets/1fb9487c-3bcf-4e1f-92f5-aec354e268d6" />
+
 
 ### 4.2 Commit inicial en la terminal
 *(Insertar captura del comando `git commit` y `git push` con el README y .gitignore)*
