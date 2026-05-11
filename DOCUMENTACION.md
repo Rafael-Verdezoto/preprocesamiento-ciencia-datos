@@ -148,17 +148,12 @@ El archivo `ci.yml` define un **workflow de integración continua (CI)** que se 
 
 ## 4. Capturas de Pantalla
 
-> **Nota para el estudiante:** Reemplaza las secciones siguientes con capturas de pantalla reales tomadas durante la ejecución de la actividad.
-
-### 4.1 Creación del repositorio en GitHub
+### Creación del repositorio en GitHub
 <img width="1890" height="1002" alt="image" src="https://github.com/user-attachments/assets/1fb9487c-3bcf-4e1f-92f5-aec354e268d6" />
 
+###  Creación de la rama `feature-preprocesamiento`
+<img width="1919" height="979" alt="image" src="https://github.com/user-attachments/assets/91ee22d0-da18-43b3-9d91-d2c0efed83ec" />
 
-### 4.2 Commit inicial en la terminal
-*(Insertar captura del comando `git commit` y `git push` con el README y .gitignore)*
-
-### 4.3 Creación de la rama `feature-preprocesamiento`
-*(Insertar captura del comando `git checkout -b feature-preprocesamiento`)*
 
 ### 4.4 Push de `preprocesamiento.py`
 *(Insertar captura del `git add`, `git commit` y `git push` del script)*
@@ -169,11 +164,6 @@ El archivo `ci.yml` define un **workflow de integración continua (CI)** que se 
 ### 4.6 Fusión del Pull Request
 *(Insertar captura de la confirmación de fusión en GitHub)*
 
-### 4.7 Ejecución exitosa de GitHub Actions
-*(Insertar captura del workflow ejecutado con ✅ en verde)*
-
-### 4.8 Ejecución local del script
-*(Insertar captura de la terminal mostrando el output del preprocesamiento)*
 
 ---
 
