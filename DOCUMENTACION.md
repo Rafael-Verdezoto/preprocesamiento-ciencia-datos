@@ -33,8 +33,8 @@ El script `scripts/preprocesamiento.py` contiene las siguientes funciones:
 
 ```bash
 # Configurar identidad del usuario (una sola vez por máquina)
-git config --global user.name "Tu Nombre"
-git config --global user.email "tuemail@example.com"
+git config --global user.name "Rafael Verdezoto"
+git config --global user.email "rafael.verdezoto@unach.edu.ec"
 ```
 **Propósito:** Asociar cada commit con el nombre y correo del autor.
 

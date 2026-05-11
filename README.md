@@ -40,9 +40,8 @@ preprocesamiento-cienciadatos/
 - GitHub Actions
 
 ## Autores
-- Estudiante(s): *(completar con tu nombre)*
+- Estudiante : Rafael Verdezoto
 - Carrera: Ciencia de Datos — UNACH
 - Materia: Cultura Digital y Sociedad
 
-## Periodo Académico
-*(completar con el periodo correspondiente)*
+
