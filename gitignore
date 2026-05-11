@@ -1,0 +1,54 @@
+# ========================
+# Python
+# ========================
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+env/
+.env
+.venv/
+ENV/
+
+# ========================
+# IDEs y Editores
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========================
+# Datos (archivos grandes)
+# ========================
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+data/processed/*.csv
+data/processed/*.xlsx
+
+# ========================
+# Logs y temporales
+# ========================
+*.log
+*.tmp
+*.bak
+
+# ========================
+# Sistema Operativo
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini

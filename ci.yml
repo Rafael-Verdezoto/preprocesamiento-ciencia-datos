@@ -1,0 +1,47 @@
+name: CI - Preprocesamiento de Datos
+
+on:
+  push:
+    branches:
+      - main
+      - feature-preprocesamiento
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  preprocesamiento:
+    name: Ejecutar preprocesamiento y validar
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Clonar el repositorio
+      - name: Checkout del repositorio
+        uses: actions/checkout@v3
+
+      # 2. Configurar Python
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      # 3. Instalar dependencias
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy scikit-learn
+
+      # 4. Ejecutar el script de preprocesamiento
+      - name: Ejecutar preprocesamiento.py
+        run: |
+          python scripts/preprocesamiento.py
+
+      # 5. Verificar sintaxis con flake8 (linting básico)
+      - name: Verificar estilo de código (flake8)
+        run: |
+          pip install flake8
+          flake8 scripts/preprocesamiento.py --max-line-length=100 --ignore=E501
+
+      # 6. Notificación de éxito
+      - name: Resultado
+        run: echo "✅ Pipeline de preprocesamiento ejecutado correctamente."
