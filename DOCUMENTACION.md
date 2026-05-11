@@ -4,8 +4,6 @@
 **Materia:** Cultura Digital y Sociedad  
 **Unidad:** 2 — Herramientas y Metodologías en Ciencia de Datos  
 
----
-
 ## 1. Introducción
 
 ### Objetivo del Proyecto
@@ -25,8 +23,6 @@ El script `scripts/preprocesamiento.py` contiene las siguientes funciones:
 | `codificar_categoricas(df, cols, metodo)` | Aplica Label Encoding u One-Hot Encoding |
 | `preprocesar_dataset(df, ...)` | Pipeline completo que ejecuta los pasos anteriores |
 
----
-
 ## 2. Comandos Git Utilizados
 
 ### Configuración inicial
@@ -38,8 +34,6 @@ git config --global user.email "rafael.verdezoto@unach.edu.ec"
 ```
 **Propósito:** Asociar cada commit con el nombre y correo del autor.
 
----
-
 ### Clonar el repositorio
 
 ```bash
@@ -47,8 +41,6 @@ git clone https://github.com/TU_USUARIO/preprocesamiento-cienciadatos.git
 cd preprocesamiento-cienciadatos
 ```
 **Propósito:** Descargar una copia completa del repositorio remoto en la máquina local.
-
----
 
 ### Commit inicial
 
@@ -59,16 +51,12 @@ git push origin main
 ```
 **Propósito:** Registrar el primer estado del proyecto con los archivos base.
 
----
-
 ### Crear y cambiar de rama
 
 ```bash
 git checkout -b feature-preprocesamiento
 ```
 **Propósito:** Crear una rama de trabajo aislada para desarrollar la funcionalidad de preprocesamiento sin afectar la rama `main`.
-
----
 
 ### Agregar cambios y hacer commit en la rama
 
@@ -79,7 +67,6 @@ git push origin feature-preprocesamiento
 ```
 **Propósito:** Guardar el progreso del script en el historial de Git y subir los cambios al repositorio remoto.
 
----
 
 ### Pull Request y fusión
 
@@ -91,7 +78,6 @@ git push origin main
 ```
 **Propósito:** Integrar el trabajo de la rama `feature-preprocesamiento` a la rama principal `main` tras revisión.
 
----
 
 ### Eliminar la rama tras la fusión
 
@@ -104,7 +90,6 @@ git push origin --delete feature-preprocesamiento
 ```
 **Propósito:** Mantener el repositorio limpio eliminando ramas que ya fueron fusionadas.
 
----
 
 ### Verificar estado e historial
 
@@ -117,7 +102,6 @@ git log --oneline --graph --all
 ```
 **Propósito:** Monitorear qué archivos han cambiado y visualizar la historia de commits en forma gráfica.
 
----
 
 ## 3. Automatización con GitHub Actions
 
@@ -137,14 +121,13 @@ El archivo `ci.yml` define un **workflow de integración continua (CI)** que se 
 | 3 | `pip install pandas numpy scikit-learn` | Instala las dependencias necesarias |
 | 4 | `python scripts/preprocesamiento.py` | Ejecuta el script y verifica que no haya errores |
 | 5 | `flake8 ...` | Revisa el estilo del código (PEP 8) |
-| 6 | `echo "✅ ..."` | Confirma la ejecución exitosa |
+| 6 | `echo " ..."` | Confirma la ejecución exitosa |
 
 ### Beneficios del CI
 - Detecta errores automáticamente antes de fusionar código.
 - Garantiza que el script siempre sea ejecutable.
 - Fomenta buenas prácticas de calidad de código.
 
----
 
 ## 4. Capturas de Pantalla
 
@@ -157,8 +140,6 @@ El archivo `ci.yml` define un **workflow de integración continua (CI)** que se 
 ###  GitHub Actions
 <img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/eadc752b-6f6c-4e3b-bbc9-ee7183159172" />
 
-
----
 
 ## 5. Bibliografía
 
