@@ -154,15 +154,8 @@ El archivo `ci.yml` define un **workflow de integración continua (CI)** que se 
 ###  Creación de la rama `feature-preprocesamiento`
 <img width="1919" height="979" alt="image" src="https://github.com/user-attachments/assets/91ee22d0-da18-43b3-9d91-d2c0efed83ec" />
 
-
-### 4.4 Push de `preprocesamiento.py`
-*(Insertar captura del `git add`, `git commit` y `git push` del script)*
-
-### 4.5 Pull Request en GitHub
-*(Insertar captura de la pull request abierta en la interfaz de GitHub)*
-
-### 4.6 Fusión del Pull Request
-*(Insertar captura de la confirmación de fusión en GitHub)*
+###  GitHub Actions
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/eadc752b-6f6c-4e3b-bbc9-ee7183159172" />
 
 
 ---
